@@ -163,16 +163,12 @@ img {
 }
 
 .hero {
+  position: relative;
   height: 600px;
   background-color: var(--grey);
   background-image: url(../images/hero-background.jpg);
   background-size: cover;
   background-blend-mode: darken;
-}
-
-.hero>image {
-  position: relative;
-
 }
 
 .effective {
@@ -199,7 +195,7 @@ img {
 }
 
 .effective-button:hover {
-  color: red;
+  
   background-color: var(--ocean);
   background-blend-mode: darken;
 }
@@ -386,36 +382,41 @@ img {
 
 .foot-section {
   display: flex;
-    height: 312px;
+  height: 312px;
   justify-content: flex-start;
   background-color: var(--navy-blue);
 }
-.logo-level{
+
+.logo-level {
   margin-top: 101px;
   margin-left: 156px;
 }
-.logo-foot{
-  color:var(--cloud);
+
+.logo-foot {
+  color: var(--cloud);
   font-family: var(--second-family);
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 3%;
 }
-.foot-text{
+
+.foot-text {
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
-  color:var(--cloud);
+  color: var(--cloud);
   font-weight: 400px;
-  
+
   margin-top: 16px;
 
 }
-.foot-group{
+
+.foot-group {
   display: flex;
 }
-.media{
+
+.media {
   color: var(--white);
   font-family: var(--font-family);
   font-size: 16px;
@@ -424,12 +425,25 @@ img {
   margin-top: 100px;
 }
 
-.icon-nav> li{
+.icon-nav>li>.icon-foot {
+  width: 16px;
+  height: 16px;
+  margin: 11px 11px;
+
+}
+
+.icon-nav {
+  display: flex;
+}
+
+.icon-nav>li {
+  border: 2px solid red;
+  list-style-type: none;
   width: 40px;
   height: 40px;
- background-color: var(--iris);
- border-radius: 50px;
- justify-content: center;
- align-content: center;
-  
+  border-radius: 50px;
+  background-color: var(--iris);
+
+  align-content: center;
 }
+
