@@ -122,7 +122,7 @@ img {
   margin-bottom: 24px;
 }
 
-.menu > li > a {
+.menu>li>a {
   font-family: var(--second-family);
   color: var(--navy-blue);
   font-weight: 500px;
@@ -144,7 +144,7 @@ img {
   margin-bottom: 24px;
 }
 
-.address > a {
+.address>a {
   font-family: var(--font-family);
   font-style: normal;
   color: var(--slate);
@@ -207,18 +207,18 @@ img {
   gap: 24px;
 }
 
-.goals-list > li {
+.goals-list>li {
   width: 264px;
   height: 112px;
   background-color: var(--cloud);
   border: 1px solid #8e8f99;
 }
 
-.goals-list > li > img {
+.goals-list>li>img {
   margin: 24px 100px;
 }
 
-.goals-list > li > h3 {
+.goals-list>li>h3 {
   color: var(--navy-blue);
   font-weight: 500px;
   font-size: 20px;
@@ -227,7 +227,7 @@ img {
   margin-bottom: 8px;
 }
 
-.goals-list > li > p {
+.goals-list>li>p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -272,7 +272,7 @@ img {
   margin-left: 16px;
 }
 
-.team-images-info > h5 {
+.team-images-info>h5 {
   margin: 0 auto;
   font-family: var(--font-family);
   font-size: 20px;
@@ -286,7 +286,7 @@ img {
   gap: 24px;
 }
 
-.team-images-info > p {
+.team-images-info>p {
   text-align: center;
   font-family: var(--font-family);
   font-weight: 400px;
@@ -303,7 +303,7 @@ img {
   gap: 24px;
 }
 
-.portfolio > li {
+.portfolio>li {
   width: 360px;
   height: 420px;
 }
@@ -345,7 +345,7 @@ img {
   font-weight: 400px;
 }
 
-.portfolio > li > h3 {
+.portfolio>li>h3 {
   color: var(--navy-blue);
   font-size: 20px;
   font-family: var(--font-family);
@@ -353,7 +353,7 @@ img {
   margin: 32px 16px 8px;
 }
 
-.portfolio > li > p {
+.portfolio>li>p {
   font-family: var(--font-family);
   font-size: 20px;
   font-weight: 500px;
@@ -408,7 +408,7 @@ img {
   margin-top: 100px;
 }
 
-.icon-nav > li > .icon-foot {
+.icon-nav>li>.icon-foot {
   width: 16px;
   height: 16px;
   margin: 11px 11px;
@@ -418,13 +418,13 @@ img {
   display: flex;
 }
 
-.icon-nav > li {
+.icon-nav>li {
   border: 2px solid red;
   list-style-type: none;
   width: 40px;
   height: 40px;
   border-radius: 50px;
   background-color: var(--iris);
-
+  justify-content: center;
   align-content: center;
 }
