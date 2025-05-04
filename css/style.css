@@ -323,15 +323,13 @@ a {
   display: flex;
   align-items: center;
   width: 360px;
-
-  background-color: rgba(255, 192, 203, 0.221);
   flex-direction: column;
   gap: 24px;
 
 }
 
 .image-portfolio {
-  width: 300px;
+  width: 360px;
   height: 300px;
   position: relative;
   overflow: hidden;
@@ -461,6 +459,14 @@ a {
 }
 
 .icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icona-foot{
   position: absolute;
   width: 24px;
   height: 24px;
