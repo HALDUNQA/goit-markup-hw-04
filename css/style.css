@@ -242,7 +242,6 @@ a {
   display: flex;
   margin: 72px;
   margin-left: 156px;
-
   align-items: center;
   gap: 24px;
   list-style-type: none;
@@ -250,9 +249,7 @@ a {
 
 .team {
   padding-top: 120px;
-
   color: var(--navy-blue);
-
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
@@ -272,7 +269,6 @@ a {
 
 .team-images-info {
   width: 232px;
-
   margin-top: 32px;
   margin-left: 16px;
   margin-bottom: 8px;
@@ -323,28 +319,30 @@ a {
   margin-bottom: 72px;
 }
 
-.content-potfolio{
+.content-potfolio {
   display: flex;
   align-items: center;
   width: 360px;
- 
- background-color:rgba(255, 192, 203, 0.221);
+
+  background-color: rgba(255, 192, 203, 0.221);
   flex-direction: column;
   gap: 24px;
-  
+
 }
-.image-portfolio{
+
+.image-portfolio {
   width: 300px;
   height: 300px;
   position: relative;
   overflow: hidden;
 
 }
-.info-portfolio{
+
+.info-portfolio {
   position: absolute;
   width: 360px;
   height: 300px;
-  color:var(--cloud);
+  color: var(--cloud);
   font-family: var(--font-family);
   font-weight: 400px;
   text-align: center;
@@ -355,13 +353,12 @@ a {
   transform: translateY(100%);
 }
 
-.content-potfolio :hover .info-portfolio{
+.content-potfolio :hover .info-portfolio {
   transform: translateY(0);
 }
 
-.title-portfolio{
+.title-portfolio {
   width: 360px;
-  
   background-color: rgba(red, rgba(237, 239, 113, 0.355), blue, alpha);
   border-left: 1px solid var(--cornflower);
   border-bottom: 1px solid var(--cornflower);
@@ -369,21 +366,21 @@ a {
   z-index: -1;
 }
 
-.name-portfolio{
+.name-portfolio {
   color: var(--navy-blue);
   font-size: 20px;
   font-family: var(--font-family);
   font-weight: 500px;
   margin: 8px 16px;
- }
-.app-portfolio{
+}
+
+.app-portfolio {
   color: var(--slate);
   font-weight: 400px;
   line-height: 24px;
   letter-spacing: 2%;
   margin: 8px 16px 32px;
- }
-
+}
 
 .portfolio>li>.title-portfolio {
   font-family: var(--font-family);
@@ -424,7 +421,6 @@ a {
   letter-spacing: 2%;
   color: var(--cloud);
   font-weight: 400px;
-
   margin-top: 16px;
 }
 
@@ -433,15 +429,9 @@ a {
 }
 
 .media {
-
   margin-left: 120px;
   margin-top: 100px;
   padding-bottom: 30px;
-
-
-
-
-
 }
 
 .media>h4 {
@@ -462,23 +452,18 @@ a {
 
 }
 
-
-
 .icon-cell {
   position: relative;
   width: 40px;
   height: 40px;
-
   border-radius: 50px;
   background-color: var(--iris);
-
 }
 
 .icon {
   position: absolute;
   width: 24px;
   height: 24px;
-
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -494,9 +479,10 @@ a {
   align-content: center;
   flex-direction: column;
   gap: 24px;
-  width: 330px;
-  margin: 40px;
-  
+  width: 700px;
+  height: 800px;
+  margin: 100px auto;
+
   background-color: burlywood;
 
 }
@@ -509,11 +495,12 @@ a {
 
 .bilgi {
   position: absolute;
-  width: 250px;
+  width: 550px;
+  height: 300px;
   color: red;
   text-align: center;
   margin: auto;
-  padding: 10px;
+  padding: 100px;
   background-color: rgba(7, 16, 12, 0.181);
   bottom: 0;
   transform: translateY(100%);
@@ -523,4 +510,16 @@ a {
 
 .content :hover .bilgi {
   transform: translateY(0);
+}
+
+.markalar {
+  margin-bottom: 140px;
+  margin-right: 400px;
+  border-width: 0px, 3px, 3px, 3px;
+
+  border-style: ridge;
+
+  border-color: green;
+
+
 }
