@@ -393,7 +393,7 @@ img {
   transform: translateY(100%);
 }
 
-.content-potfolio :hover .info-portfolio {
+.content-potfolio:hover .info-portfolio {
   transform: translateY(0);
 }
 
