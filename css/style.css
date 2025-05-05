@@ -83,7 +83,7 @@ a {
   letter-spacing: 3%;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 24px;
+  
   margin-left: 156px;
   margin-bottom: 24px;
 }
@@ -106,6 +106,38 @@ a {
   font-family: var(--Raleway);
   text-decoration: none;
 }
+.studio-frame{
+display: flex;
+align-items: center;
+align-content: center;
+flex-direction: column;
+width: 48px;
+height: 48px;
+border: 1px solid var(--cornflower);
+}
+.studio-border{
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+.studio-bold{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-top: 4px ridge var(--ocean);
+  border-left: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
+  bottom: 0;
+  transform: translateY(100%);
+transition: transform 500ms linear;
+}
+
+.studio-frame :hover .studio-bold{
+  transform: translateY(40%);
+  
+}
+
+
 
 .menu {
   display: flex;
@@ -115,22 +147,21 @@ a {
   margin-left: 76px;
   margin-bottom: 24px;
 }
+.menu :hover{
+  color: var(--ocean);
+  font-weight: 500px;
+  line-height: 24px;
 
-.menu>li>a {
+}
+.link-menu {
   font-family: var(--font-family);
   color: var(--navy-blue);
-  font-weight: 500px;
+  
   line-height: 24px;
   font-weight: bold;
 }
 
-.menu :hover {
-  font-family: var(--second-family);
-  color: var(--ocean);
-  font-weight: bold;
-}
-
-.address {
+ .address {
   display: flex;
   gap: 40px;
   margin-top: 24px;
@@ -446,8 +477,6 @@ a {
   display: flex;
   gap: 16px;
   cursor: pointer;
-
-
 }
 
 .icon-cell {
@@ -466,7 +495,8 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.icona-foot{
+
+.icona-foot {
   position: absolute;
   width: 24px;
   height: 24px;
@@ -479,53 +509,3 @@ a {
   background-color: var(--green);
 }
 
-.content {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-  gap: 24px;
-  width: 700px;
-  height: 800px;
-  margin: 100px auto;
-
-  background-color: burlywood;
-
-}
-
-.resim {
-  position: relative;
-  margin: auto;
-  overflow: hidden;
-}
-
-.bilgi {
-  position: absolute;
-  width: 550px;
-  height: 300px;
-  color: red;
-  text-align: center;
-  margin: auto;
-  padding: 100px;
-  background-color: rgba(7, 16, 12, 0.181);
-  bottom: 0;
-  transform: translateY(100%);
-  transition: transform 500ms linear;
-
-}
-
-.content :hover .bilgi {
-  transform: translateY(0);
-}
-
-.markalar {
-  margin-bottom: 140px;
-  margin-right: 400px;
-  border-width: 0px, 3px, 3px, 3px;
-
-  border-style: ridge;
-
-  border-color: green;
-
-
-}
