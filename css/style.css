@@ -80,6 +80,7 @@ img {
 .site-head {
   display: flex;
   align-items: center;
+  height: 72px;
 }
 
 .logo {
@@ -89,9 +90,7 @@ img {
   letter-spacing: 3%;
   font-weight: bold;
   text-transform: uppercase;
-
   margin-left: 156px;
-  margin-bottom: 24px;
 }
 
 .web {
@@ -118,6 +117,7 @@ img {
   align-items: center;
   align-content: center;
   flex-direction: column;
+  margin-top: 25px;
   width: 48px;
   height: 48px;
  
@@ -132,17 +132,17 @@ img {
 .studio-bold {
   position: absolute;
   width: 48px;
-  height: 48px;
-  border-top: 4px solid var(--ocean);
-  
+  height: 4px;
+  border-radius: 4px;
   bottom: 0;
-  transform: translateY(100%);
+  
   
 }
 
 .studio-frame :hover .studio-bold {
-  transform: translateY(96%);
+  
   border-top:6px solid #4d5ae5;
+  background-color:var(--ocean);
 }
 
 
@@ -150,9 +150,10 @@ img {
 .menu {
   display: flex;
   gap: 30px;
+  align-items: center;
   justify-content: space-between;
   margin-top: 24px;
-  margin-left: 76px;
+  margin-left: 72px;
   margin-bottom: 24px;
 }
 
@@ -251,20 +252,23 @@ img {
   height: 112px;
   background-color: var(--cloud);
   border: 1px solid #8e8f99;
+  border-radius: 4px;
+ 
 }
 
 .goals-list>li>img {
   margin: 24px 100px;
-  border: 1px solid var(--light-slate);
-}
+ }
 
-.goals-list>li>h3 {
+.goals-img-title {
   color: var(--navy-blue);
   font-weight: 500px;
   font-size: 20px;
   line-height: 24px;
   font-family: var(--font-family);
-  margin-bottom: 8px;
+  padding-top: 8px;
+  margin: 8px 0;
+
 }
 
 .goals-list>li>p {
@@ -390,7 +394,7 @@ img {
   padding: 40px 32px;
   background-color: var(--iris);
   bottom: 0;
-  transition: transform 500ms linear;
+  transition: transform 250ms linear;
   transform: translateY(100%);
 }
 
